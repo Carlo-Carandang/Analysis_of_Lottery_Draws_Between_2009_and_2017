@@ -323,7 +323,7 @@ the script in R that was used, and the histogram:</span></p>
 <p class=SourceCode><span class=NormalTok>alc &lt;-</span><span
 class=StringTok> </span><span class=KeywordTok>read.csv</span><span
 class=NormalTok>(</span><span class=StringTok>&quot;C:/Users/carandangc/Documents/Winter
-2017 BIA/2. Data Sets/alc_winning_numbers/data/alc_winning_numbers.csv&quot;</span><span
+2017 BIA/2. Data Sets/alc_winning_numbers/data/lotto_winning_numbers.csv&quot;</span><span
 class=NormalTok>, </span><span class=DataTypeTok>header=</span><span
 class=OtherTok>FALSE</span><span class=NormalTok>)</span><br>
 <span class=NormalTok>alc2 &lt;-</span><span class=StringTok> </span><span
@@ -409,7 +409,7 @@ lang=EN-US><br>
 </span><span class=CommentTok><span lang=EN-US>#calculating mean for rows = 1
 and columns= 2 </span></span><span lang=EN-US><br>
 </span><span class=NormalTok><span lang=EN-US>M &lt;-</span></span><span
-class=StringTok><span lang=EN-US>  </span></span><span class=KeywordTok><span
+class=StringTok><span lang=EN-US>Â  </span></span><span class=KeywordTok><span
 lang=EN-US>apply</span></span><span class=NormalTok><span lang=EN-US>(Z,</span></span><span
 class=DecValTok><span lang=EN-US>2</span></span><span class=NormalTok><span
 lang=EN-US>,mean)</span></span><span lang=EN-US><br>
@@ -431,7 +431,7 @@ class=NormalTok>]=</span><span class=StringTok>&quot;red&quot;</span><br>
 <span class=NormalTok>alc$Colour[alc$V8&lt;=</span><span class=DecValTok>1</span><span
 class=NormalTok>]=</span><span class=StringTok>&quot;blue&quot;</span><br>
 <span class=CommentTok># Plot all points at once, using newly generated colours</span><br>
-<span class=KeywordTok>plot</span><span class=NormalTok>(alc$V2,alc$V8,  </span><span
+<span class=KeywordTok>plot</span><span class=NormalTok>(alc$V2,alc$V8,Â  </span><span
 class=DataTypeTok>col=</span><span class=NormalTok>alc$Colour, </span><span
 class=DataTypeTok>ylim=</span><span class=KeywordTok>c</span><span
 class=NormalTok>(</span><span class=DecValTok>0</span><span class=NormalTok>,</span><span
@@ -531,29 +531,29 @@ of 7-column numbers:</span></p>
 "Times New Roman",serif'>while (generatedArr.length &lt; 10000) {</span></p>
 
 <p class=MsoNormal><span style='font-size:12.0pt;line-height:107%;font-family:
-"Times New Roman",serif'>    var innerArr = [];</span></p>
+"Times New Roman",serif'>Â Â Â  var innerArr = [];</span></p>
 
 <p class=MsoNormal><span style='font-size:12.0pt;line-height:107%;font-family:
-"Times New Roman",serif'>    while (innerArr.length &lt; 7) {</span></p>
+"Times New Roman",serif'>Â Â Â  while (innerArr.length &lt; 7) {</span></p>
 
 <p class=MsoNormal><span style='font-size:12.0pt;line-height:107%;font-family:
-"Times New Roman",serif'>        var generated = Math.floor(Math.random() * 49)
+"Times New Roman",serif'>Â Â Â Â Â Â Â  var generated = Math.floor(Math.random() * 49)
 + 1;</span></p>
 
 <p class=MsoNormal><span style='font-size:12.0pt;line-height:107%;font-family:
-"Times New Roman",serif'>        if (innerArr.indexOf(generated) == -1) {</span></p>
+"Times New Roman",serif'>Â Â Â Â Â Â Â  if (innerArr.indexOf(generated) == -1) {</span></p>
 
 <p class=MsoNormal><span style='font-size:12.0pt;line-height:107%;font-family:
-"Times New Roman",serif'>            innerArr.push(generated);</span></p>
+"Times New Roman",serif'>Â Â Â Â Â Â Â Â Â Â Â  innerArr.push(generated);</span></p>
 
 <p class=MsoNormal><span style='font-size:12.0pt;line-height:107%;font-family:
-"Times New Roman",serif'>        }</span></p>
+"Times New Roman",serif'>Â Â Â Â Â Â Â  }</span></p>
 
 <p class=MsoNormal><span style='font-size:12.0pt;line-height:107%;font-family:
-"Times New Roman",serif'>    }</span></p>
+"Times New Roman",serif'>Â Â Â  }</span></p>
 
 <p class=MsoNormal><span style='font-size:12.0pt;line-height:107%;font-family:
-"Times New Roman",serif'>    generatedArr.push(innerArr)</span></p>
+"Times New Roman",serif'>Â Â Â  generatedArr.push(innerArr)</span></p>
 
 <p class=MsoNormal><span style='font-size:12.0pt;line-height:107%;font-family:
 "Times New Roman",serif'>}</span></p>
@@ -562,7 +562,7 @@ of 7-column numbers:</span></p>
 "Times New Roman",serif'>for (i = 0; i &lt; 1000; i++) {</span></p>
 
 <p class=MsoNormal><span style='font-size:12.0pt;line-height:107%;font-family:
-"Times New Roman",serif'>    output += generatedArr[i].join(',') +
+"Times New Roman",serif'>Â Â Â  output += generatedArr[i].join(',') +
 &quot;\r\n&quot;;</span></p>
 
 <p class=MsoNormal><span style='font-size:12.0pt;line-height:107%;font-family:
