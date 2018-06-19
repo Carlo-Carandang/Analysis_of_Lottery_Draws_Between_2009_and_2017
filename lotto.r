@@ -1,4 +1,4 @@
-alc <- read.csv("C:/Users/carandangc/Documents/Winter 2017 BIA/INTF 4001 - Special Topics (Bill) - Notes/carlo_data_2016_2017.csv", header=FALSE)
+alc <- read.csv("C:/Users/carandangc/Documents/Winter 2017 BIA/INTF 4001 - Special Topics (Bill) - Notes/lotto_winning_numbers.csv", header=FALSE)
 alc2 <- c(alc$V2,alc$V3,alc$V4,alc$V5,alc$V6,alc$V7,alc$V8)
 hist(alc2, col="BLUE", ylab = "Frequency",las=1, xlim=c(1,49),xlab = "VALUES", breaks=49)
 ?hist
