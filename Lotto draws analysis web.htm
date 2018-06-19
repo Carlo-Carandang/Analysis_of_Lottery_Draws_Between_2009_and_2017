@@ -1,0 +1,586 @@
+<html>
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=Generator content="Microsoft Word 15 (filtered)">
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:"Calibri Light";
+	panose-1:2 15 3 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:Consolas;
+	panose-1:2 11 6 9 2 2 4 3 2 4;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:8.0pt;
+	margin-left:0cm;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+h1
+	{mso-style-link:"Heading 1 Char";
+	margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:0cm;
+	margin-bottom:.0001pt;
+	line-height:107%;
+	page-break-after:avoid;
+	font-size:16.0pt;
+	font-family:"Calibri Light",sans-serif;
+	color:#2E74B5;
+	font-weight:normal;}
+h2
+	{mso-style-link:"Heading 2 Char";
+	margin-top:2.0pt;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:0cm;
+	margin-bottom:.0001pt;
+	line-height:107%;
+	page-break-after:avoid;
+	font-size:13.0pt;
+	font-family:"Calibri Light",sans-serif;
+	color:#2E74B5;
+	font-weight:normal;}
+h3
+	{mso-style-link:"Heading 3 Char";
+	margin-top:2.0pt;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:0cm;
+	margin-bottom:.0001pt;
+	line-height:107%;
+	page-break-after:avoid;
+	font-size:12.0pt;
+	font-family:"Calibri Light",sans-serif;
+	color:#1F4D78;
+	font-weight:normal;}
+p.MsoTitle, li.MsoTitle, div.MsoTitle
+	{mso-style-link:"Title Char";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:28.0pt;
+	font-family:"Calibri Light",sans-serif;
+	letter-spacing:-.5pt;}
+p.MsoTitleCxSpFirst, li.MsoTitleCxSpFirst, div.MsoTitleCxSpFirst
+	{mso-style-link:"Title Char";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:28.0pt;
+	font-family:"Calibri Light",sans-serif;
+	letter-spacing:-.5pt;}
+p.MsoTitleCxSpMiddle, li.MsoTitleCxSpMiddle, div.MsoTitleCxSpMiddle
+	{mso-style-link:"Title Char";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:28.0pt;
+	font-family:"Calibri Light",sans-serif;
+	letter-spacing:-.5pt;}
+p.MsoTitleCxSpLast, li.MsoTitleCxSpLast, div.MsoTitleCxSpLast
+	{mso-style-link:"Title Char";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:28.0pt;
+	font-family:"Calibri Light",sans-serif;
+	letter-spacing:-.5pt;}
+p.MsoBodyText, li.MsoBodyText, div.MsoBodyText
+	{mso-style-link:"Body Text Char";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:0cm;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+a:link, span.MsoHyperlink
+	{color:#0563C1;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:#954F72;
+	text-decoration:underline;}
+p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:8.0pt;
+	margin-left:36.0pt;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+p.MsoListParagraphCxSpFirst, li.MsoListParagraphCxSpFirst, div.MsoListParagraphCxSpFirst
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:36.0pt;
+	margin-bottom:.0001pt;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+p.MsoListParagraphCxSpMiddle, li.MsoListParagraphCxSpMiddle, div.MsoListParagraphCxSpMiddle
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:36.0pt;
+	margin-bottom:.0001pt;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+p.MsoListParagraphCxSpLast, li.MsoListParagraphCxSpLast, div.MsoListParagraphCxSpLast
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:8.0pt;
+	margin-left:36.0pt;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+span.Heading1Char
+	{mso-style-name:"Heading 1 Char";
+	mso-style-link:"Heading 1";
+	font-family:"Calibri Light",sans-serif;
+	color:#2E74B5;}
+span.Heading3Char
+	{mso-style-name:"Heading 3 Char";
+	mso-style-link:"Heading 3";
+	font-family:"Calibri Light",sans-serif;
+	color:#1F4D78;}
+span.Heading2Char
+	{mso-style-name:"Heading 2 Char";
+	mso-style-link:"Heading 2";
+	font-family:"Calibri Light",sans-serif;
+	color:#2E74B5;}
+span.TitleChar
+	{mso-style-name:"Title Char";
+	mso-style-link:Title;
+	font-family:"Calibri Light",sans-serif;
+	letter-spacing:-.5pt;}
+span.VerbatimChar
+	{mso-style-name:"Verbatim Char";
+	mso-style-link:"Source Code";
+	font-family:Consolas;
+	background:#F8F8F8;}
+p.SourceCode, li.SourceCode, div.SourceCode
+	{mso-style-name:"Source Code";
+	mso-style-link:"Verbatim Char";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:10.0pt;
+	margin-left:0cm;
+	background:#F8F8F8;
+	word-break:break-all;
+	font-size:11.0pt;
+	font-family:Consolas;}
+span.KeywordTok
+	{mso-style-name:KeywordTok;
+	font-family:Consolas;
+	color:#204A87;
+	background:#F8F8F8;
+	font-weight:bold;}
+span.DataTypeTok
+	{mso-style-name:DataTypeTok;
+	font-family:Consolas;
+	color:#204A87;
+	background:#F8F8F8;}
+span.DecValTok
+	{mso-style-name:DecValTok;
+	font-family:Consolas;
+	color:#0000CF;
+	background:#F8F8F8;}
+span.StringTok
+	{mso-style-name:StringTok;
+	font-family:Consolas;
+	color:#4E9A06;
+	background:#F8F8F8;}
+span.OtherTok
+	{mso-style-name:OtherTok;
+	font-family:Consolas;
+	color:#8F5902;
+	background:#F8F8F8;}
+span.NormalTok
+	{mso-style-name:NormalTok;
+	font-family:Consolas;
+	background:#F8F8F8;}
+span.CommentTok
+	{mso-style-name:CommentTok;
+	font-family:Consolas;
+	color:#8F5902;
+	background:#F8F8F8;
+	font-style:italic;}
+p.FirstParagraph, li.FirstParagraph, div.FirstParagraph
+	{mso-style-name:"First Paragraph";
+	margin-top:9.0pt;
+	margin-right:0cm;
+	margin-bottom:9.0pt;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Calibri",sans-serif;}
+span.BodyTextChar
+	{mso-style-name:"Body Text Char";
+	mso-style-link:"Body Text";}
+.MsoChpDefault
+	{font-family:"Calibri",sans-serif;}
+.MsoPapDefault
+	{margin-bottom:8.0pt;
+	line-height:107%;}
+@page WordSection1
+	{size:612.0pt 792.0pt;
+	margin:72.0pt 72.0pt 72.0pt 72.0pt;}
+div.WordSection1
+	{page:WordSection1;}
+ /* List Definitions */
+ ol
+	{margin-bottom:0cm;}
+ul
+	{margin-bottom:0cm;}
+-->
+</style>
+
+</head>
+
+<body lang=EN-CA link="#0563C1" vlink="#954F72">
+
+<div class=WordSection1>
+
+<p class=MsoTitleCxSpFirst align=center style='text-align:center'>&nbsp;</p>
+
+<p class=MsoTitleCxSpMiddle align=center style='text-align:center'>&nbsp;</p>
+
+<p class=MsoTitleCxSpLast align=center style='text-align:center'>Analysis of <span
+lang=EN-US>Lottery Draws Between 2009 and 2017</span></p>
+
+<h3>&nbsp;</h3>
+
+<h1 align=center style='text-align:center'>Carlo Carandang, Gregory Horne</h1>
+
+<h2 align=center style='text-align:center'>May 22, 2017</h2>
+
+<span style='font-size:11.0pt;line-height:107%;font-family:"Calibri",sans-serif'><br
+clear=all style='page-break-before:always'>
+</span>
+
+<p class=MsoNormal><span style='font-size:13.0pt;line-height:107%;font-family:
+"Calibri Light",sans-serif;color:#2E74B5'>&nbsp;</span></p>
+
+<p class=MsoTitle align=center style='text-align:center'>Analysis of <span
+lang=EN-US>Lottery Draws Between 2009 and 2017</span></p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal><span style='font-size:12.0pt;line-height:107%;font-family:
+"Times New Roman",serif'>This project entails the analysis of a dataset of
+historical </span><span lang=EN-US style='font-size:12.0pt;line-height:107%;
+font-family:"Times New Roman",serif'>lottery draws between 2009 and 2017
+inclusive, scraped from the website of a lottery by my colleague, Gregory
+Horne. We had a question whether the winning numbers could be predicted, based
+on past draws, but needed to know if the winning numbers clustered, or were randomly
+drawn.</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:12.0pt;line-height:107%;
+font-family:"Times New Roman",serif'>In this lottery, ping-pong balls are
+labeled with one number, ranging from 1 to 49. One of each number is placed in
+a barrel. The barrel is spun to mix up all the balls, then one ball is drawn.
+This is repeated 5 more times for a winning number set of 6 winning numbers. In
+addition, there is a bonus draw, which gives 7 winning numbers.</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:12.0pt;line-height:107%;
+font-family:"Times New Roman",serif'>We</span><span style='font-size:12.0pt;
+line-height:107%;font-family:"Times New Roman",serif'> will first analyze the winning
+numbers from 2009 to 2015, then add the winning numbers from 2016 to 2017, to
+see how the analysis is changed with new data. Thus, we will analyze two </span><span
+lang=EN-US style='font-size:12.0pt;line-height:107%;font-family:"Times New Roman",serif'>lottery
+datasets, one from 2009 to 2015, and the other from 2016 to 2017.</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:12.0pt;line-height:107%;
+font-family:"Times New Roman",serif'>We propose to perform cluster analysis on
+this lottery dataset. We hypothesize that the cluster analysis should be
+random, and therefore the datapoints should plot in a uniform manner in the
+feature space. This hypothesis is based on the premise that this specific lottery
+draw is indeed random in nature. However, if our analysis leads to clustering
+that is significant, then this can lead to further analysis and speculation on
+the method of determining winners for this specific lottery.</span></p>
+
+<h2><span style='font-size:12.0pt;line-height:107%'>&nbsp;</span></h2>
+
+<h2>Are the winning numbers randomly drawn?</h2>
+
+<p class=MsoNormal><span style='font-size:12.0pt;line-height:107%;font-family:
+"Times New Roman",serif'>We produced a histogram of the winning numbers
+2009-2015 dataset to determine the frequencies of each winning number. Here is
+the script in R that was used, and the histogram:</span></p>
+
+<p class=SourceCode><span class=NormalTok>alc &lt;-</span><span
+class=StringTok> </span><span class=KeywordTok>read.csv</span><span
+class=NormalTok>(</span><span class=StringTok>&quot;C:/Users/carandangc/Documents/Winter
+2017 BIA/2. Data Sets/alc_winning_numbers/data/alc_winning_numbers.csv&quot;</span><span
+class=NormalTok>, </span><span class=DataTypeTok>header=</span><span
+class=OtherTok>FALSE</span><span class=NormalTok>)</span><br>
+<span class=NormalTok>alc2 &lt;-</span><span class=StringTok> </span><span
+class=KeywordTok>c</span><span class=NormalTok>(alc$V2,alc$V3,alc$V4,alc$V5,alc$V6,alc$V7,alc$V8)</span><br>
+<span class=KeywordTok>hist</span><span class=NormalTok>(alc2, </span><span
+class=DataTypeTok>col=</span><span class=StringTok>&quot;BLUE&quot;</span><span
+class=NormalTok>, </span><span class=DataTypeTok>ylab =</span><span
+class=NormalTok> </span><span class=StringTok>&quot;Frequency&quot;</span><span
+class=NormalTok>,</span><span class=DataTypeTok>las=</span><span
+class=DecValTok>1</span><span class=NormalTok>, </span><span class=DataTypeTok>xlim=</span><span
+class=KeywordTok>c</span><span class=NormalTok>(</span><span class=DecValTok>1</span><span
+class=NormalTok>,</span><span class=DecValTok>49</span><span class=NormalTok>),</span><span
+class=DataTypeTok>xlab =</span><span class=NormalTok> </span><span
+class=StringTok>&quot;VALUES&quot;</span><span class=NormalTok>, </span><span
+class=DataTypeTok>breaks=</span><span class=DecValTok>49</span><span
+class=NormalTok>)</span></p>
+
+<p class=MsoNormal><img width=485 height=388
+src="Lotto%20draws%20analysis%20web_files/image001.png"></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt;line-height:107%;font-family:
+"Times New Roman",serif'>As you can see, the frequencies are not evenly
+distributed, and one number (#1) tend to occur in much greater frequency, and
+some other numbers (#14, #19, #48) seem to peak also. So this gives us a signal
+that this is not random, and can therefore proceed with the analysis to look
+for clustering.</span></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt;line-height:107%;font-family:
+"Times New Roman",serif'>&nbsp;</span></p>
+
+<h2>What is the application of clustering for predictive analysis? How do you
+predict behaviors from clustering analysis?</h2>
+
+<p class=MsoNormal><span style='font-size:12.0pt;line-height:107%;font-family:
+"Times New Roman",serif'>If you can figure out which data tends to cluster,
+then you can use the features that characterize that dataset, and use those
+same features to predict which data will fall into that same category/label. In
+this case study, we want to see if there is clustering for the winning numbers,
+so that we can identify those same features to predict future winning draws.</span></p>
+
+<h2>&nbsp;</h2>
+
+<h2>For the dataset to be analyzed, does the data tend to separate/cluster, or
+is the data random with uniform distribution? </h2>
+
+<p class=MsoNormal><span style='font-size:12.0pt;line-height:107%;font-family:
+"Times New Roman",serif'>We used a cluster dendrogram for the analysis. In the
+clustering analysis, we used the frequency of the winning numbers to convert
+categorical data into quantitative data. This is how we can transform
+categorical data into quantitative data, and the most common way is to use
+frequency of use. Then this numerical data (that was previously categorical)
+can be analyzed by the clustering algorithm used.</span></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt;line-height:107%;font-family:
+"Times New Roman",serif'>With the analysis of the lottery data from 2009 to
+2015, the data does tend to cluster. The data is not random, and does not have
+a uniform distribution. The dendrogram below shows 2 separate and unequal groups
+when you cut it off at a height of 4.5, and shows 4 separate and unequal groups
+at a height of 3.7. Please see the R script and plots of the dendrograms
+showing the clustering below:</span></p>
+
+<p class=SourceCode><span class=CommentTok>#scatter plot</span><br>
+<span class=KeywordTok>plot</span><span class=NormalTok>(V2~V8, alc)</span><br>
+<span class=KeywordTok>with</span><span class=NormalTok>(alc,</span><span
+class=KeywordTok>text</span><span class=NormalTok>(V2~V8, </span><span
+class=DataTypeTok>labels=</span><span class=NormalTok>V2,</span><span
+class=DataTypeTok>pos=</span><span class=DecValTok>4</span><span
+class=NormalTok>,</span><span class=DataTypeTok>cex=</span><span
+class=NormalTok>.</span><span class=DecValTok>3</span><span class=NormalTok>))</span></p>
+
+<p class=MsoNormal><img width=485 height=388
+src="Lotto%20draws%20analysis%20web_files/image002.png"></p>
+
+<p class=MsoNormal><span class=CommentTok><span lang=EN-US>#Normalization will
+create a level plain field, the average for each variable becomes 0 and std
+becomes 1 </span></span><span lang=EN-US><br>
+</span><span class=NormalTok><span lang=EN-US>Z &lt;-alc[, -</span></span><span
+class=KeywordTok><span lang=EN-US>c</span></span><span class=NormalTok><span
+lang=EN-US>(</span></span><span class=DecValTok><span lang=EN-US>1</span></span><span
+class=NormalTok><span lang=EN-US>,</span></span><span class=DecValTok><span
+lang=EN-US>1</span></span><span class=NormalTok><span lang=EN-US>)]</span></span><span
+lang=EN-US><br>
+</span><span class=CommentTok><span lang=EN-US>#calculating mean for rows = 1
+and columns= 2 </span></span><span lang=EN-US><br>
+</span><span class=NormalTok><span lang=EN-US>M &lt;-</span></span><span
+class=StringTok><span lang=EN-US>  </span></span><span class=KeywordTok><span
+lang=EN-US>apply</span></span><span class=NormalTok><span lang=EN-US>(Z,</span></span><span
+class=DecValTok><span lang=EN-US>2</span></span><span class=NormalTok><span
+lang=EN-US>,mean)</span></span><span lang=EN-US><br>
+</span><span class=NormalTok><span lang=EN-US>SD &lt;-</span></span><span
+class=StringTok><span lang=EN-US> </span></span><span class=KeywordTok><span
+lang=EN-US>apply</span></span><span class=NormalTok><span lang=EN-US>(Z,</span></span><span
+class=DecValTok><span lang=EN-US>2</span></span><span class=NormalTok><span
+lang=EN-US>,sd)</span></span><span lang=EN-US><br>
+</span><span class=NormalTok><span lang=EN-US>Z &lt;-</span></span><span
+class=StringTok><span lang=EN-US> </span></span><span class=KeywordTok><span
+lang=EN-US>scale</span></span><span class=NormalTok><span lang=EN-US>(Z,M,SD)</span></span></p>
+
+<p class=SourceCode><span class=CommentTok># Create new column filled with
+default colour</span><br>
+<span class=NormalTok>alc$Colour=</span><span class=StringTok>&quot;black&quot;</span><br>
+<span class=CommentTok># Set new column values to appropriate colours</span><br>
+<span class=NormalTok>alc$Colour[alc$V2&gt;=</span><span class=DecValTok>3</span><span
+class=NormalTok>]=</span><span class=StringTok>&quot;red&quot;</span><br>
+<span class=NormalTok>alc$Colour[alc$V8&lt;=</span><span class=DecValTok>1</span><span
+class=NormalTok>]=</span><span class=StringTok>&quot;blue&quot;</span><br>
+<span class=CommentTok># Plot all points at once, using newly generated colours</span><br>
+<span class=KeywordTok>plot</span><span class=NormalTok>(alc$V2,alc$V8,  </span><span
+class=DataTypeTok>col=</span><span class=NormalTok>alc$Colour, </span><span
+class=DataTypeTok>ylim=</span><span class=KeywordTok>c</span><span
+class=NormalTok>(</span><span class=DecValTok>0</span><span class=NormalTok>,</span><span
+class=DecValTok>5</span><span class=NormalTok>))</span></p>
+
+<p class=FirstParagraph><img width=485 height=388
+src="Lotto%20draws%20analysis%20web_files/image003.png"></p>
+
+<p class=SourceCode><span class=CommentTok>#cluster dendogram with complete
+linkage</span><br>
+<span class=NormalTok>hc.c &lt;-</span><span class=StringTok> </span><span
+class=KeywordTok>hclust</span><span class=NormalTok>(distance)</span><br>
+<span class=KeywordTok>plot</span><span class=NormalTok>(hc.c)</span></p>
+
+<p class=FirstParagraph><img width=485 height=388
+src="Lotto%20draws%20analysis%20web_files/image004.png"></p>
+
+<p class=SourceCode><span class=KeywordTok>plot</span><span class=NormalTok>(hc.c,
+</span><span class=DataTypeTok>hang=</span><span class=NormalTok> -</span><span
+class=DecValTok>1</span><span class=NormalTok>)</span></p>
+
+<p class=FirstParagraph><img width=485 height=388
+src="Lotto%20draws%20analysis%20web_files/image005.png"></p>
+
+<p class=SourceCode><span class=CommentTok>#Cluster dendogram average</span><br>
+<span class=NormalTok>hc.a &lt;-</span><span class=StringTok> </span><span
+class=KeywordTok>hclust</span><span class=NormalTok>(distance,</span><span
+class=DataTypeTok>method=</span><span class=StringTok>&quot;average&quot;</span><span
+class=NormalTok>)</span><br>
+<span class=KeywordTok>plot</span><span class=NormalTok>(hc.a, </span><span
+class=DataTypeTok>hang=</span><span class=NormalTok>-</span><span
+class=DecValTok>1</span><span class=NormalTok>)</span></p>
+
+<p class=FirstParagraph><img width=485 height=388
+src="Lotto%20draws%20analysis%20web_files/image006.png"></p>
+
+<p class=SourceCode><span class=CommentTok>#cluster member</span><br>
+<span class=NormalTok>lottery.c &lt;-</span><span class=StringTok> </span><span
+class=KeywordTok>cutree</span><span class=NormalTok>(hc.c,</span><span
+class=DecValTok>3</span><span class=NormalTok>)</span><br>
+<span class=NormalTok>lottery.a &lt;-</span><span class=StringTok> </span><span
+class=KeywordTok>cutree</span><span class=NormalTok>(hc.a,</span><span
+class=DecValTok>3</span><span class=NormalTok>)</span></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt;line-height:107%;font-family:
+"Times New Roman",serif'>&nbsp;</span></p>
+
+<h2>Does the cluster change over time with new data points being entered? If it
+does, are the changes due to things such as software updates, user behavior
+changes, etc.</h2>
+
+<p class=MsoNormal><span style='font-size:12.0pt;line-height:107%;font-family:
+"Times New Roman",serif'>We used a cluster dendrogram for the analysis. With
+the addition of new winning numbers lottery dataset from 2016 to 2017, added to
+the winning numbers dataset from 2009 to 2015, the data does change over time. Although
+the data continues to cluster and is not random, it actually begins to flatten
+out. The dendrogram below shows 2 separate and unequal groups when you cut it
+off at a height of 4.5, which is unchanged from the old data analysis. However,
+there is a change at a height of 3.7, where the new data separates into 3
+groups, rather than 4 groups in the old dataset. But looking further down in
+height, the data appears to flatten out, and not cluster. We can assume that
+adding more datapoints will continue to flatten out the dendrogram, and hence
+become more random. The following shows the dendrogram for the new data points
+added (same R script above was used, and just adding the new data points):</span></p>
+
+<p class=MsoNormal><img width=485 height=388
+src="Lotto%20draws%20analysis%20web_files/image007.png"></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt;line-height:107%;font-family:
+"Times New Roman",serif'>&nbsp;</span></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt;line-height:107%;font-family:
+"Times New Roman",serif'>&nbsp;</span></p>
+
+<h2>How does a random number generator to generate a separate dataset compare?</h2>
+
+<p class=MsoNormal><span style='font-size:12.0pt;line-height:107%;font-family:
+"Times New Roman",serif'>We analyzed a random dataset, to see if the random
+number generator is indeed random, and to see if it clusters. With the
+clustering analysis, we found that the numbers are indeed random, as the
+dendrogram (below) has a uniform distribution at a height of 3.7 and below, and
+no clustering was found. The R script above was used, and utilized the random
+dataset generated by the script below. Please see the plot of the dendrogram
+showing this analysis, and the script used to generate the random dataset:</span></p>
+
+<p class=MsoNormal><img width=485 height=388 id=Picture
+src="Lotto%20draws%20analysis%20web_files/image008.png"></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt;line-height:107%;font-family:
+"Times New Roman",serif'>This script was used for randomly generating 1000 rows
+of 7-column numbers:</span></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt;line-height:107%;font-family:
+"Times New Roman",serif'>var generatedArr = [];</span></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt;line-height:107%;font-family:
+"Times New Roman",serif'>while (generatedArr.length &lt; 10000) {</span></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt;line-height:107%;font-family:
+"Times New Roman",serif'>    var innerArr = [];</span></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt;line-height:107%;font-family:
+"Times New Roman",serif'>    while (innerArr.length &lt; 7) {</span></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt;line-height:107%;font-family:
+"Times New Roman",serif'>        var generated = Math.floor(Math.random() * 49)
++ 1;</span></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt;line-height:107%;font-family:
+"Times New Roman",serif'>        if (innerArr.indexOf(generated) == -1) {</span></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt;line-height:107%;font-family:
+"Times New Roman",serif'>            innerArr.push(generated);</span></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt;line-height:107%;font-family:
+"Times New Roman",serif'>        }</span></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt;line-height:107%;font-family:
+"Times New Roman",serif'>    }</span></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt;line-height:107%;font-family:
+"Times New Roman",serif'>    generatedArr.push(innerArr)</span></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt;line-height:107%;font-family:
+"Times New Roman",serif'>}</span></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt;line-height:107%;font-family:
+"Times New Roman",serif'>for (i = 0; i &lt; 1000; i++) {</span></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt;line-height:107%;font-family:
+"Times New Roman",serif'>    output += generatedArr[i].join(',') +
+&quot;\r\n&quot;;</span></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt;line-height:107%;font-family:
+"Times New Roman",serif'>}</span></p>
+
+<h2>Summary</h2>
+
+<p class=MsoNormal><span style='font-size:12.0pt;line-height:107%;font-family:
+"Times New Roman",serif'>To conclude, the analysis of the winning numbers of a
+lottery draw initially appeared to cluster and not be randomly drawn. But with
+the addition of new datapoints, the initial clustering in the analysis became
+less pronounced, as the data tended to become more random. It is hypothesized
+that with the addition of more datapoints, it will ultimately make the analysis
+random, and should look like the analysis of a randomly-generated dataset as
+shown above. </span></p>
+
+</div>
+
+</body>
+
+</html>
